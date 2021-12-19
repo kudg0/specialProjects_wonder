@@ -4,7 +4,7 @@
 
 @import 'libs/_aos';
 
-[data-ui-id='post'] {
+.specialContainer {
   @media (min-width: 649px) {
     @import 'start';
   }
