@@ -1,8 +1,10 @@
-@import 'helpers/_base';
-@import 'helpers/_fontsadd';
-@import 'helpers/_mixins';
+@import '_helpers/_base';
+@import '_helpers/_fontsadd';
+@import '_helpers/_mixins';
 
-@import 'libs/_aos';
+@import '_helpers/_hacksForWonder';
+
+@import '_libs/_aos';
 
 .specialContainer {
   display: flex;
@@ -10,13 +12,11 @@
   justify-content: flex-start;
   align-items: flex-start;
 
-
   width: 100vw;
 
   margin-left: calc((-100vw + 100%) / 2);
 
   position: relative;
-
 
   @media (min-width: 649px) {
     @import 'start';

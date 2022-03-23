@@ -1,8 +1,8 @@
 @import '_fontsBaseadd';
 
 :root {
-  --font-alt: "TwentytwelveSansC", sans-serif;
-  --font-main: "circe", serif;
+  --font-alt: 'TwentytwelveSansC', sans-serif;
+  --font-main: 'circe', serif;
 }
 
 /* ВКЛЮЧАЕМ ПЕРЕНОСЫ В ТЕКСТЕ */
@@ -36,10 +36,10 @@
 }
 /* OVER  */
 
-.main-content{
+.main-content {
   height: calc(730px + 117px);
 }
-.article-text{
+.article-text {
   img {
     width: 100%;
     height: auto;

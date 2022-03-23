@@ -1,0 +1,142 @@
+.page-content.page-content.page-content.page-content {
+  background: transparent;
+  z-index: 2;
+
+  #app_notice {
+    display: none;
+  }
+
+  [data-ui-id='post'][data-ui-id='post'][data-ui-id='post'] {
+    background: none !important;
+  }
+
+  .row.site-header.row.site-header.row.site-header {
+    .row-cont {
+      border: 1px solid #fff;
+      border-bottom: none;
+      border-top: none;
+
+      box-sizing: border-box;
+      background-clip: unset;
+      &:before {
+        right: -40px;
+        left: auto;
+      }
+      &:after {
+        left: -40px;
+        right: auto;
+      }
+      &:after,
+      &:before {
+        height: 100%;
+        border: 1px solid #fff;
+
+        margin-top: 0;
+
+        box-sizing: border-box;
+        background-clip: unset !important;
+      }
+      z-index: 2;
+    }
+  }
+  .row.main-content.post-cover-row {
+    margin-top: get-vw(71px, 1440);
+
+    .row-cont {
+      background: none;
+      z-index: 2;
+
+      &:after,
+      &:before {
+        display: none;
+      }
+      .content {
+        display: flex;
+        justify-content: center;
+
+        .post-cover_4.post-cover_4-style_1.post-cover_4-color_ffffff {
+          width: 100%;
+
+          .cover-content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            bottom: -40px;
+
+            .cover-bottom {
+              display: none;
+            }
+          }
+
+          .share-buttons-bar {
+            width: 100%;
+            justify-content: center;
+
+            bottom: -130px;
+          }
+        }
+
+        .pseudosidebar {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .row.row-banner {
+    background: none;
+    * {
+      background: none;
+    }
+  }
+
+  .row.post-additions.row.post-additions.row.post-additions {
+    padding-top: 50px;
+
+    *:after,
+    *:before,
+    &:after,
+    &:before {
+      display: none !important;
+    }
+    z-index: 2;
+  }
+  .page-footer.page-footer.page-footer.page-footer {
+    background: #fff;
+    .row-cont.block-justifier,
+    .row-cont {
+      background: #fff;
+      border: none;
+    }
+
+    *:not(a):after,
+    *:not(a):before,
+    &:after,
+    &:before {
+      border: none;
+      background: none;
+    }
+    z-index: 2;
+  }
+  .row.post-additions,
+  .row.entry-comments-wrap,
+  .row.clearfix {
+    background: #fff;
+
+    *:after,
+    *:before,
+    &:after,
+    &:before {
+      border: none;
+      background: none;
+    }
+
+    z-index: 2;
+  }
+
+  .row.post-body .b-article {
+    background: transparent;
+  }
+}
